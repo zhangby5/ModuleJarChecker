@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ModuleJarChecker
+Bundle-SymbolicName: nc.uap.plugin.studio.modulejarchecker;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: nc.uap.plugin.studio.modulejarchecker.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ nc.uap.studio.common;bundle-version="1.0.4",
+ com.yonyou.uap.studio.connection;bundle-version="1.0.0",
+ com.google.gson;bundle-version="2.2.4"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
